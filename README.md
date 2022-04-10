@@ -75,3 +75,4 @@ Financial Companies - localhost:8082
 
 Admin - localhost:8083
 - `/investments/:id` get an investment record by id
+- `/reports/user-holdings/:id` post - create user investment report
