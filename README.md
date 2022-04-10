@@ -37,9 +37,15 @@ We're interested in how you break down the work and build your solution in a cle
 - How to run any additional scripts or tests you may have added
 - Relating to the task please add answers to the following questions;
     1. How might you make this service more secure?
+    - validate incoming data
+    - implement auth process to check the credentials of the user
+
     2. How would you make this solution scale to millions of records?
+    - distribute work load to workers, clusters, etc.
     3. What else would you have liked to improve given more time?
-  
+    - fix indentation issue in csv text
+    - implement testing on the generateCsv function
+    - add a controller file and reports routing file
 
 On completion email a link to your repository to your contact at Moneyhub and ensure it is publicly accessible.
 
@@ -54,6 +60,8 @@ npm start
 or
 npm run develop
 ```
+To run jest tests run
+npm run test
 
 The develop command will run nodemon allowing you to make changes without restarting
 
